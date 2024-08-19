@@ -13,7 +13,6 @@ client = get_discord_client()
 
 @client.event
 async def on_ready():
-    
     print(f"We have Logged in as ! {client.user}")
 
 
