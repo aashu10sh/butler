@@ -1,4 +1,8 @@
+from discord.message import Message
+
+
 class HelloController:
     @staticmethod
-    def main() -> None:
-        print("Hello World!")
+    async def main(message: Message) -> None:
+        await message.channel.send("pong")
+

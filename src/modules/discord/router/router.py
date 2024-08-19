@@ -1,6 +1,7 @@
-from src.modules.discord.domain.entities.dtos.route import Route
-from src.modules.discord.controllers import HelloController
 from typing import List
+
+from src.modules.discord.controllers import HelloController
+from src.modules.discord.domain.entities.dtos.route import Route
 
 
 class DiscordRouter:
